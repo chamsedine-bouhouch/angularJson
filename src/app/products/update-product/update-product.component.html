@@ -1,0 +1,108 @@
+<div class="container">
+  <h1 class="text-center">update-product with Id: {{ productId }}</h1>
+</div>
+<div class="container">
+  <form
+    class="row g-3 needs-validation"
+    novalidate
+    (submit)="updateProduct(updateProductForm)"
+    #updateProductForm="ngForm"
+  >
+    <div class="col-md-4">
+      <label for="validationCustom01" class="form-label">Product Name</label>
+      <input
+        type="text"
+        class="form-control"
+        id="validationCustom01"
+        required
+        name="name"
+        [(ngModel)]="productDetails.name"
+      />
+      <div class="invalid-feedback">Please choose a Product Name.</div>
+    </div>
+    <!--  -->
+    <div class="col-md-4">
+      <label for="validationCustom02" class="form-label">Reference</label>
+      <input
+        type="text"
+        class="form-control"
+        id="validationCustom02"
+        required
+        name="reference"
+        [(ngModel)]="productDetails.name"
+      />
+      <div class="invalid-feedback">Please choose a Reference.</div>
+    </div>
+    <div class="col-md-4">
+      <label for="validationCustomUsername" class="form-label">Quantity</label>
+      <div class="input-group has-validation">
+        <span class="input-group-text" id="inputGroupPrepend">@</span>
+        <input
+          type="text"
+          class="form-control"
+          id="validationCustomUsername"
+          aria-describedby="inputGroupPrepend"
+          required
+          name="quantity"
+          [(ngModel)]="productDetails.quantity"
+        />
+        <div class="invalid-feedback">Please choose a Quantity.</div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <label for="validationCustom05" class="form-label">Image Url</label>
+      <input
+        type="text"
+        class="form-control"
+        id="validationCustom05"
+        required
+        name="image"
+        [(ngModel)]="productDetails.image"
+      />
+      <div class="invalid-feedback">Please provide a Image Url.</div>
+    </div>
+    <div class="col-md-3">
+      <label for="validationCustom04" class="form-label">Category</label>
+      <select
+        class="form-select"
+        id="validationCustom04"
+        required
+        name="categoryId"
+        [(ngModel)]="productDetails.categoryId"
+      >
+        <option selected disabled></option>
+
+        <option *ngFor="let category of categoriesList" [value]='category.id'>
+          {{ category.name }}
+        </option>
+      </select>
+      <div class="invalid-feedback">Please select a valid Category</div>
+    </div>
+    <div class="col-md-3">
+      <label for="validationCustom03" class="form-label">Price</label>
+      <input
+        type="text"
+        class="form-control"
+        id="validationCustom03"
+        required
+        name="price"
+        [(ngModel)]="productDetails.price"
+      />
+      <div class="invalid-feedback">Please provide a valid Price.</div>
+    </div>
+    <div class="col-12">
+      <div class="input-group">
+        <span class="input-group-text">Description</span>
+        <textarea
+          class="form-control"
+          aria-label="With textarea"
+          name="description"
+          [(ngModel)]="productDetails.description"
+        ></textarea>
+      </div>
+    </div>
+    <div class="col-12">
+      <button class="btn btn-primary" type="submit">Update Product</button>
+    </div>
+  </form>
+</div>

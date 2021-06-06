@@ -1,0 +1,128 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "PC PORTABLE LENOVO IDEAPAD GAMING 3",
+      "quantity": "1000",
+      "categoryId": "3",
+      "price": "3201",
+      "reference": "PC PORTABLE LENOVO IDEAPAD GAMING 3",
+      "image": "https://www.tunisianet.com.tn/185836-large/pc-portable-lenovo-ideapad-gaming-3-15imh05-i5-10e-gen-16-go-souris-gaming-lenovo-m100-offerte.jpg",
+      "description": "Écran 15.6 Full HD LED - Processeur Intel Core I5-10300H, 10è Gén, up to 4.5 GHz, 8 Mo de cache - 16 Go de mémoire - Disque 1 To + 256 Go SSD - Carte graphique NVIDIA GeForce GTX 1650, 4 Go de mémoire GDDR5 dédiée - Wifi - Bluetooth - Clavier rétroéclairé - 1x USB 3.1 - 2x USB 2.0 - HDMI - RJ45 - Webcam - Garantie 1 an"
+    },
+    {
+      "id": 2,
+      "name": "PC PORTABLE HP PAVILION GAMING 15",
+      "quantity": 100,
+      "categoryId": "2",
+      "price": 2349,
+      "reference": "PC PORTABLE HP PAVILION GAMING 15",
+      "image": "https://www.tunisianet.com.tn/160930-large/pc-portable-hp-pavilion-gaming-15-dk0019nk-i5-9e-gen-8-go-sim-orange-offerte-60-go.jpg",
+      "description": "Écran 15.6 Full HD LED - Processeur Intel Core I5-10300H, 10è Gén, up to 4.5 GHz, 8 Mo de cache - 16 Go de mémoire - Disque 1 To + 256 Go SSD - Carte graphique NVIDIA GeForce GTX 1650, 4 Go de mémoire GDDR5 dédiée - Wifi - Bluetooth - Clavier rétroéclairé - 1x USB 3.1 - 2x USB 2.0 - HDMI - RJ45 - Webcam - Garantie 1 an"
+    },
+    {
+      "id": 3,
+      "name": "PC PORTABLE DELL G3 3500",
+      "quantity": 40,
+      "categoryId": 3,
+      "price": 2466,
+      "reference": " 3500-G3.-16",
+      "image": "https://www.tunisianet.com.tn/184979-large/pc-portable-dell-g3-3500-i5-10e-gen-8-go-noir.jpg",
+      "description": "Écran 15.6 Full HD LED - Processeur Intel Core I5-10300H, 10è Gén, up to 4.5 GHz, 8 Mo de cache - 16 Go de mémoire - Disque 1 To + 256 Go SSD - Carte graphique NVIDIA GeForce GTX 1650, 4 Go de mémoire GDDR5 dédiée - Wifi - Bluetooth - Clavier rétroéclairé - 1x USB 3.1 - 2x USB 2.0 - HDMI - RJ45 - Webcam - Garantie 1 an"
+    },
+    {
+      "id": 4,
+      "name": "PC PORTABLE DELL G3 3500",
+      "quantity": 40,
+      "categoryId": 3,
+      "price": 2466,
+      "reference": " 3500-G3.-16",
+      "image": "https://www.tunisianet.com.tn/184979-large/pc-portable-dell-g3-3500-i5-10e-gen-8-go-noir.jpg",
+      "description": "Écran 15.6 Full HD LED - Processeur Intel Core I5-10300H, 10è Gén, up to 4.5 GHz, 8 Mo de cache - 16 Go de mémoire - Disque 1 To + 256 Go SSD - Carte graphique NVIDIA GeForce GTX 1650, 4 Go de mémoire GDDR5 dédiée - Wifi - Bluetooth - Clavier rétroéclairé - 1x USB 3.1 - 2x USB 2.0 - HDMI - RJ45 - Webcam - Garantie 1 an"
+    },
+    {
+      "id": 5,
+      "name": "PC PORTABLE DELL G3 3500",
+      "quantity": 40,
+      "categoryId": 3,
+      "price": 2466,
+      "reference": " 3500-G3.-16",
+      "image": "https://www.tunisianet.com.tn/184979-large/pc-portable-dell-g3-3500-i5-10e-gen-8-go-noir.jpg",
+      "description": "Écran 15.6 Full HD LED - Processeur Intel Core I5-10300H, 10è Gén, up to 4.5 GHz, 8 Mo de cache - 16 Go de mémoire - Disque 1 To + 256 Go SSD - Carte graphique NVIDIA GeForce GTX 1650, 4 Go de mémoire GDDR5 dédiée - Wifi - Bluetooth - Clavier rétroéclairé - 1x USB 3.1 - 2x USB 2.0 - HDMI - RJ45 - Webcam - Garantie 1 an"
+    },
+    {
+      "id": 6,
+      "name": "PC PORTABLE DELL G3 3500",
+      "quantity": 40,
+      "categoryId": 3,
+      "price": 2466,
+      "reference": " 3500-G3.-16",
+      "image": "https://www.tunisianet.com.tn/184979-large/pc-portable-dell-g3-3500-i5-10e-gen-8-go-noir.jpg",
+      "description": "Écran 15.6 Full HD LED - Processeur Intel Core I5-10300H, 10è Gén, up to 4.5 GHz, 8 Mo de cache - 16 Go de mémoire - Disque 1 To + 256 Go SSD - Carte graphique NVIDIA GeForce GTX 1650, 4 Go de mémoire GDDR5 dédiée - Wifi - Bluetooth - Clavier rétroéclairé - 1x USB 3.1 - 2x USB 2.0 - HDMI - RJ45 - Webcam - Garantie 1 an"
+    },
+    {
+      "id": 8,
+      "name": "new pc",
+      "quantity": "2",
+      "categoryId": "2",
+      "price": "3200",
+      "reference": "new pc",
+      "image": "https://www.tunisianet.com.tn/185836-large/pc-portable-lenovo-ideapad-gaming-3-15imh05-i5-10e-gen-16-go-souris-gaming-lenovo-m100-offerte.jpg",
+      "description": "des"
+    },
+    {
+      "name": "",
+      "quantity": "",
+      "categoryId": "",
+      "price": "",
+      "reference": "",
+      "image": "",
+      "description": "",
+      "id": 9
+    },
+    {
+      "name": "sd",
+      "quantity": "",
+      "categoryId": "",
+      "price": "",
+      "reference": "",
+      "image": "",
+      "description": "",
+      "id": 10
+    },
+    {
+      "name": "",
+      "quantity": "",
+      "categoryId": "",
+      "price": "",
+      "reference": "",
+      "image": "",
+      "description": "",
+      "id": 11
+    },
+    {
+      "name": "",
+      "quantity": "",
+      "categoryId": "",
+      "price": "",
+      "reference": "",
+      "image": "",
+      "description": "",
+      "id": 12
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Lenovo"
+    },
+    {
+      "id": 2,
+      "name": "hp"
+    },
+    {
+      "id": 3,
+      "name": "Dell"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+<button
+  type="button"
+  class="btn btn-success"
+  routerLink="/products/create-product"
+>
+  Add Product
+</button>
+<div *ngIf="products.length == 0">You have no product in this category</div>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Article</th>
+      <th scope="col">Reference</th>
+      <th scope="col">Category</th>
+      <th scope="col">Quantity</th>
+      <th scope="col">Price</th>
+
+      <th scope="col">Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let product of products">
+      <th scope="row">{{ product.id }}</th>
+      <td>{{ product.name }}</td>
+      <td>{{ product.reference }}</td>
+      <td>{{ product.categoryId }}</td>
+      <td>{{ product.quantity }}</td>
+      <td>{{ product.price }}</td>
+      <td>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <button
+            type="button"
+            class="btn btn-info me-md-2"
+            routerLink="/products/view-product/{{ product.id }}"
+          >
+            Show
+          </button>
+
+          <button
+            class="btn btn-primary me-md-2"
+            type="button"
+            routerLink="/products/update-product/{{ product.id }}"
+          >
+            Edit
+          </button>
+          <button
+            class="btn btn-danger"
+            type="button"
+            routerLink="/products/delete-product/{{ product.id }}"
+          >
+            Delete
+          </button>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
